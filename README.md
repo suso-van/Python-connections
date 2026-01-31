@@ -40,6 +40,7 @@ Flask / Django
 SQL
 
 📂 Repository Structure
+```
 Python-connections/
 │
 ├── data_science/
@@ -50,6 +51,7 @@ Python-connections/
 ├── web_ml_systems/
 │
 └── README.md
+```
 
 
 Each project is self-contained with:
