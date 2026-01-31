@@ -13,10 +13,6 @@ Application of ML & AI techniques beyond toy examples
 
 Consistent project structure and clean documentation
 
-⚠️ Note:
-This repository focuses on breadth and coverage.
-For deep, interview-ready projects, refer to the separate Top-10 Resume Projects repository.
-
 🧠 Domains Covered
 
 Data Science & Analytics
