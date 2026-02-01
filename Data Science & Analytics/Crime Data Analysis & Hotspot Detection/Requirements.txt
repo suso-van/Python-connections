@@ -1,4 +1,3 @@
-```
 pandas
 numpy
 matplotlib
@@ -6,4 +5,3 @@ seaborn
 folium
 scikit-learn
 jupyter
-```
