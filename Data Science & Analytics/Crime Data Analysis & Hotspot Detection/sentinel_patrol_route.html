@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e5ada8fbf8553f78739ce36b4da4faaa {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e5ada8fbf8553f78739ce36b4da4faaa" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e5ada8fbf8553f78739ce36b4da4faaa = L.map(
+                "map_e5ada8fbf8553f78739ce36b4da4faaa",
+                {
+                    center: [41.85082105327232, -87.66964651619004],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2aa95efcbceb5fe1b08744b311d1ac38 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_2aa95efcbceb5fe1b08744b311d1ac38.addTo(map_e5ada8fbf8553f78739ce36b4da4faaa);
+        
+    
+            var marker_49cfa38ce2b9b234182995e6c812111d = L.marker(
+                [41.768784212696104, -87.68044790283884],
+                {
+}
+            ).addTo(map_e5ada8fbf8553f78739ce36b4da4faaa);
+        
+    
+            var icon_ad3723ea01b4f2bcc061a97657cc3643 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "shield",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d5491adf8a96ff172139e196a9fdc20b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_720418c033a9a6feb66a23569cd47bc6 = $(`<div id="html_720418c033a9a6feb66a23569cd47bc6" style="width: 100.0%; height: 100.0%;">🛑 Patrol Checkpoint: Zone 0</div>`)[0];
+                popup_d5491adf8a96ff172139e196a9fdc20b.setContent(html_720418c033a9a6feb66a23569cd47bc6);
+            
+        
+
+        marker_49cfa38ce2b9b234182995e6c812111d.bindPopup(popup_d5491adf8a96ff172139e196a9fdc20b)
+        ;
+
+        
+    
+    
+                marker_49cfa38ce2b9b234182995e6c812111d.setIcon(icon_ad3723ea01b4f2bcc061a97657cc3643);
+            
+    
+            var marker_9dc2a032d9bc668e6c136c35e6478689 = L.marker(
+                [41.960706900638534, -87.67764847473445],
+                {
+}
+            ).addTo(map_e5ada8fbf8553f78739ce36b4da4faaa);
+        
+    
+            var icon_d9926756542c8e1699f0c085c6d6bd41 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "shield",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_258a15b150ca7e911ddd1e6a5b5473ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39d6135e0c5aec10eb22a361aed7ec5e = $(`<div id="html_39d6135e0c5aec10eb22a361aed7ec5e" style="width: 100.0%; height: 100.0%;">🛑 Patrol Checkpoint: Zone 1</div>`)[0];
+                popup_258a15b150ca7e911ddd1e6a5b5473ae.setContent(html_39d6135e0c5aec10eb22a361aed7ec5e);
+            
+        
+
+        marker_9dc2a032d9bc668e6c136c35e6478689.bindPopup(popup_258a15b150ca7e911ddd1e6a5b5473ae)
+        ;
+
+        
+    
+    
+                marker_9dc2a032d9bc668e6c136c35e6478689.setIcon(icon_d9926756542c8e1699f0c085c6d6bd41);
+            
+    
+            var marker_ea268985e2f334c1306b6c61b754c469 = L.marker(
+                [41.87572643900039, -87.64308604743027],
+                {
+}
+            ).addTo(map_e5ada8fbf8553f78739ce36b4da4faaa);
+        
+    
+            var icon_a6794d9ce5f555c277d5529aca86f4b9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "shield",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e80b054ba8ed24826c13d068ebdf2973 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1019f3260adc492c5ac397183282beb3 = $(`<div id="html_1019f3260adc492c5ac397183282beb3" style="width: 100.0%; height: 100.0%;">🛑 Patrol Checkpoint: Zone 2</div>`)[0];
+                popup_e80b054ba8ed24826c13d068ebdf2973.setContent(html_1019f3260adc492c5ac397183282beb3);
+            
+        
+
+        marker_ea268985e2f334c1306b6c61b754c469.bindPopup(popup_e80b054ba8ed24826c13d068ebdf2973)
+        ;
+
+        
+    
+    
+                marker_ea268985e2f334c1306b6c61b754c469.setIcon(icon_a6794d9ce5f555c277d5529aca86f4b9);
+            
+    
+            var marker_4255c1d56b14087e9c6409ec7b1ce9d4 = L.marker(
+                [41.90126411241555, -87.7477179092522],
+                {
+}
+            ).addTo(map_e5ada8fbf8553f78739ce36b4da4faaa);
+        
+    
+            var icon_bad8220a82cbf9551874f7a819e16014 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "shield",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d77455aaceb2c72a2df9a8da34629445 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c537e503852f4e08b90caf01d4724ca8 = $(`<div id="html_c537e503852f4e08b90caf01d4724ca8" style="width: 100.0%; height: 100.0%;">🛑 Patrol Checkpoint: Zone 3</div>`)[0];
+                popup_d77455aaceb2c72a2df9a8da34629445.setContent(html_c537e503852f4e08b90caf01d4724ca8);
+            
+        
+
+        marker_4255c1d56b14087e9c6409ec7b1ce9d4.bindPopup(popup_d77455aaceb2c72a2df9a8da34629445)
+        ;
+
+        
+    
+    
+                marker_4255c1d56b14087e9c6409ec7b1ce9d4.setIcon(icon_bad8220a82cbf9551874f7a819e16014);
+            
+    
+            var marker_1cdf74469de44a1475db261a4f27334f = L.marker(
+                [41.74762360161101, -87.59933224669446],
+                {
+}
+            ).addTo(map_e5ada8fbf8553f78739ce36b4da4faaa);
+        
+    
+            var icon_314621683480525fe6bcaed2688ea542 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "shield",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d0d0f92c1333318a126d190ac1604c0a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7260ac082d98fc505d2280b828f8b8c0 = $(`<div id="html_7260ac082d98fc505d2280b828f8b8c0" style="width: 100.0%; height: 100.0%;">🛑 Patrol Checkpoint: Zone 4</div>`)[0];
+                popup_d0d0f92c1333318a126d190ac1604c0a.setContent(html_7260ac082d98fc505d2280b828f8b8c0);
+            
+        
+
+        marker_1cdf74469de44a1475db261a4f27334f.bindPopup(popup_d0d0f92c1333318a126d190ac1604c0a)
+        ;
+
+        
+    
+    
+                marker_1cdf74469de44a1475db261a4f27334f.setIcon(icon_314621683480525fe6bcaed2688ea542);
+            
+    
+            var poly_line_2b6b178f8f60bfd299d406caf92364c3 = L.polyline(
+                [[41.768784212696104, -87.68044790283884], [41.74762360161101, -87.59933224669446], [41.87572643900039, -87.64308604743027], [41.960706900638534, -87.67764847473445], [41.90126411241555, -87.7477179092522], [41.768784212696104, -87.68044790283884]],
+                {"bubblingMouseEvents": true, "color": "#00FFFF", "dashArray": "10", "dashOffset": null, "fill": false, "fillColor": "#00FFFF", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_e5ada8fbf8553f78739ce36b4da4faaa);
+        
+</script>
+</html>
