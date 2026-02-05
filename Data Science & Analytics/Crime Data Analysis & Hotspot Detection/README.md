@@ -76,3 +76,19 @@ Move it into the data/ folder in this project.
     03_Clustering_Model.ipynb (Runs the ML model)
     03_Geospatial_Map.ipynb (Creates the map.html file)
     ```
+---
+
+## 🔮 Advanced Analytics (The "Future" Phase)
+
+### 1. Predictive Modeling (Prophet)
+We didn't just look at the past; we predicted the future.
+* **Model:** Facebook Prophet (Time-Series Forecasting).
+* **Forecast:** Predicted crime trends for the next 90 days with seasonality adjustments.
+* **Insight:** The model successfully captures the "Weekend Spike" and predicts a seasonal rise in crime as summer approaches.
+
+### 2. The "Cyberpunk" Pulse Map (Time-Animation)
+* **Visualization:** Created a Dark Mode, time-animated heatmap.
+* **Effect:** Watch crime shift from business districts (Day) to nightlife hubs (Night) in real-time.
+* **Tech:** `Folium.HeatMapWithTime` + `CartoDB Dark_Matter` tiles.
+
+*(Open `cyberpunk_crime_map.html` in your browser to see the animation live)*
