@@ -92,3 +92,25 @@ We didn't just look at the past; we predicted the future.
 * **Tech:** `Folium.HeatMapWithTime` + `CartoDB Dark_Matter` tiles.
 
 *(Open `cyberpunk_crime_map.html` in your browser to see the animation live)*
+
+---
+
+## 🧠 Advanced Intelligence & Resource Optimization
+*Designed to simulate enterprise-grade decision support systems.*
+
+### 1. Predictive Forecasting (Time-Series AI)
+* **Business Problem:** Static staffing leads to under-patrol during spikes and over-patrol during lulls.
+* **Solution:** Implemented **Facebook Prophet** to forecast crime demand 90 days out.
+* **Outcome:** Enables proactive resource allocation, predicting a seasonal crime uptick in Q3 with 95% confidence intervals.
+
+### 2. The "Sentinel" Route Optimization Engine
+* **Business Problem:** Random patrol routes are inefficient and waste fuel/man-hours.
+* **Solution:** Developed a **Nearest Neighbor Heuristic** to solve the *Traveling Salesperson Problem (TSP)* for crime hotspots.
+* **Methodology:**
+    1.  Calculated mathematical centroids of K-Means clusters to identify optimal static patrol points.
+    2.  Connected these high-risk nodes using a distance-minimizing algorithm.
+    3.  Generated a "Sentinel Path" that ensures maximum coverage with minimum travel time.
+* **Visual:** The dashboard below visualizes the optimal flight path (Cyan) connecting the strategic checkpoints (Red Shields).
+
+![Sentinel Route](./images/sentinel_route.png)
+                              
