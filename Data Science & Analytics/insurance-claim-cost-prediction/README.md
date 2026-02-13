@@ -68,6 +68,7 @@ insurance-claim-cost-prediction/
 │   ├── __init__.py
 │   ├── preprocessing.py           # Reusable data cleaning pipeline
 │   └── train.py                   # Script to train and save the model
+|   |__ predict.py
 ├── .gitignore
 ├── README.md                      # Project documentation
 └── requirements.txt               # Python dependencies
