@@ -51,3 +51,14 @@ and identify high-cost customer segments.
 - Add uncertainty estimation
 - Deploy as pricing API
 - Incorporate medical history features
+
+## Model Performance
+| Model | MAE | RMSE | R² Score |
+|-------|-----|------|----------|
+| Linear Regression | ~4181 | ~6065 | 0.78 |
+| **Random Forest** | **2484** | **4576** | **0.87** 🏆 |
+
+## Key Findings
+- **Smoking is the #1 cost driver:** Smokers pay significantly higher premiums.
+- **The "Obesity Multiplier":** High BMI (>30) drastically increases costs *only* for smokers.
+- **Age:** Costs rise linearly with age (approx $250/year).
