@@ -46,6 +46,34 @@ Medical insurance dataset containing:
 The model can help insurance companies price policies more accurately, reduce risk,
 and identify high-cost customer segments.
 
+```
+insurance-claim-cost-prediction/
+├── data/
+│   ├── raw/
+│   │   └── insurance.csv          # Original immutable data
+│   └── processed/
+│       └── insurance_clean.csv    # Cleaned data ready for modeling
+├── models/
+│   └── insurance_model.pkl        # Trained Random Forest model (saved object)
+├── notebooks/
+│   ├── 01_data_understanding.ipynb
+│   ├── 02_eda.ipynb
+│   ├── 03_feature_engineering.ipynb
+│   ├── 04_modeling.ipynb
+│   └── 05_model_interpretation.ipynb
+├── reports/
+│   ├── insights.md                # Business findings for stakeholders
+│   └── metrics.md                 # Technical performance metrics (R2, RMSE)
+├── src/
+│   ├── __init__.py
+│   ├── preprocessing.py           # Reusable data cleaning pipeline
+│   └── train.py                   # Script to train and save the model
+├── .gitignore
+├── README.md                      # Project documentation
+└── requirements.txt               # Python dependencies
+
+```
+
 
 ## Future Improvements
 - Add uncertainty estimation
