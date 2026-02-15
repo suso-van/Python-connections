@@ -159,3 +159,4 @@ Consistent folder structure
 Clear documentation
 
 Suggestions and improvements are welcome.
+
