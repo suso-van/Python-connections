@@ -78,8 +78,8 @@ Clear README inside the project folder
 7	Weather Forecasting Analytics
 8	GST Billing & Sales Analytics System
 ```
-🟨 Machine Learning (10 Projects)
-#	Project Name
+## 🟨 Machine Learning (10 Projects)
+### Project Name
 ```
 9	Credit Card Fraud Detection System
 10	Fraudulent Transaction Detection (Random Forest)
@@ -92,8 +92,8 @@ Clear README inside the project folder
 17	Iris Flower Classification
 18	Insurance Risk Prediction
 ```
-🟥 Deep Learning & Computer Vision (8 Projects)
-#	Project Name
+## 🟥 Deep Learning & Computer Vision (8 Projects)
+### Project Name
 ```
 19	Facial Recognition Attendance System
 20	Fire Detection using Surveillance Camera
@@ -104,8 +104,8 @@ Clear README inside the project folder
 25	Skin Cancer Detection System
 26	Image to Cartoon Conversion
 ```
-🟩 Healthcare & Risk Prediction (5 Projects)
-#	Project Name
+## 🟩 Healthcare & Risk Prediction (5 Projects)
+### Project Name
 ```
 27	Breast Cancer Prediction
 28	Heart Disease Prediction
@@ -113,8 +113,8 @@ Clear README inside the project folder
 30	Hypothyroid Disease Prediction
 31	Multiple Disease Prediction Platform
 ```
-🟪 NLP & AI Systems (5 Projects)
-#	Project Name
+## 🟪 NLP & AI Systems (5 Projects)
+### Project Name
 ```
 32	IMDB Sentiment Analysis
 33	Automated Answer Grading System
@@ -122,8 +122,8 @@ Clear README inside the project folder
 35	AI Chess Game
 36	Job Portal Matching System
 ```
-🟫 ML-Powered Web Systems (4 Projects)
-#	Project Name
+## 🟫 ML-Powered Web Systems (4 Projects)
+### Project Name
 ```
 37	Online Banking System with Fraud ML
 38	Online Loan Management System with ML
