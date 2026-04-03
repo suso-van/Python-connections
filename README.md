@@ -1,6 +1,6 @@
-🐍 Python Data Science, Machine Learning & AI — 40 Projects
+# 🐍 Python Data Science, Machine Learning & AI — 40 Projects
 
-📌 Overview
+## 📌 Overview
 
 This repository contains 40 end-to-end Python projects covering the entire spectrum of Data Science, Machine Learning, Deep Learning, NLP, Computer Vision, Healthcare AI, and ML-powered Web Systems.
 
@@ -14,23 +14,23 @@ Application of ML & AI techniques beyond toy examples
 
 Consistent project structure and clean documentation
 
-🧠 Domains Covered
+## 🧠 Domains Covered
 
-Data Science & Analytics
+* Data Science & Analytics
 
-Classical Machine Learning
+* Classical Machine Learning
 
-Deep Learning & Computer Vision
+* Deep Learning & Computer Vision
 
-Natural Language Processing (NLP)
+* Natural Language Processing (NLP)
 
-Healthcare & Risk Prediction
+* Healthcare & Risk Prediction
 
-Recommendation Systems
+* Recommendation Systems
 
-ML-powered Web Applications (Flask / Django)
+* ML-powered Web Applications (Flask / Django)
 
-🧰 Tech Stack
+## 🧰 Tech Stack
 Python
 Pandas, NumPy, Matplotlib, Seaborn
 Scikit-learn, XGBoost
@@ -40,7 +40,7 @@ NLTK / spaCy
 Flask / Django
 SQL
 
-📂 Repository Structure
+## 📂 Repository Structure
 ```
 Python-connections/
 │
@@ -66,8 +66,8 @@ Model training & evaluation
 Clear README inside the project folder
 
 📑 PROJECT INDEX (ALL 40 PROJECTS)
-🟦 Data Science & Analytics (8 Projects)
-#	Project Name
+## 🟦 Data Science & Analytics (8 Projects)
+### Project Name
 ```
 1	Crime Data Analysis & Hotspot Detection
 2	Insurance Claim Cost Analysis
@@ -130,26 +130,26 @@ Clear README inside the project folder
 39	Taxi Booking System with Demand Analytics
 40	Hospital Appointment System with Analytics
 ```
-🚀 How to Run a Project
+## 🚀 How to Run a Project
 
-Clone the repository
-
+* Clone the repository
+```
 git clone https://github.com/suso-van/Python-connections.git
+```
 
-
-Navigate to a project folder
-
+* Navigate to a project folder
+```
 cd machine_learning/credit_card_fraud_detection
+```
 
-
-Install dependencies
-
+* Install dependencies
+```
 pip install -r requirements.txt
-
+```
 
 Run notebooks or Python scripts as instructed in the project README
 
-📬 Contributions & Collaboration
+## 📬 Contributions & Collaboration
 
 This repository is maintained collaboratively by two contributors following:
 
